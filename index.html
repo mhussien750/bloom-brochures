@@ -1,39 +1,35 @@
 <!doctype html>
 <html lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BLOOM 繁體中文手冊</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<title>BLOOM 產品手冊</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
 <style>
-/* Layout: one narrow column, a list of five brochure rows, each with page count, size and an Open PDF link. */
-:root{--bg:#faf8f9;--fg:#2a2226;--muted:#6f6469;--card:#ffffff;--line:#e8dfe3;--accent:#b0305f;--accent-fg:#ffffff;
---font:Inter,"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171214;--fg:#f1e9ed;--muted:#a99da3;--card:#211a1d;--line:#382e33;--accent:#e0679a;--accent-fg:#1a0e14;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#171214;--fg:#f1e9ed;--muted:#a99da3;--card:#211a1d;--line:#382e33;--accent:#e0679a;--accent-fg:#1a0e14;color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px;line-height:1.5;
-padding-block:40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-main{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
-h1{font-size:26px;line-height:1.2;margin:0;text-wrap:balance}
-.sub{margin:6px 0 0;color:var(--muted)}
-ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.t{min-width:0;flex:1 1 220px}
-.t b{display:block;font-weight:600}
-.t span{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
-a.btn{background:var(--accent);color:var(--accent-fg);text-decoration:none;font-weight:600;padding:8px 16px;border-radius:8px}
-a.btn:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
-footer{color:var(--muted);font-size:13px}
-</style>
-<main>
-<header>
-<h1>BLOOM 繁體中文手冊</h1>
-<p class="sub">Five product brochures in Traditional Chinese. Open a PDF, then download it from your viewer.</p>
-</header>
-<ul>
-<li><div class="t"><b>Hyalu Tox PDRN</b><span>1 page · 2.4 MB</span></div><a class="btn" href="pdf/Hyalu_Tox_PDRN_One_page_Brochure_ZH-TW.pdf">Open PDF</a></li>
-<li><div class="t"><b>DHT Exo Shot</b><span>1 page · 2.7 MB</span></div><a class="btn" href="pdf/DHT_Exo_Shot_One_Page_Brochure_ZH-TW.pdf">Open PDF</a></li>
-<li><div class="t"><b>ACN Exo Shot</b><span>1 page · 2.9 MB</span></div><a class="btn" href="pdf/ACN_Exo_Shot_One_Page_Brochure_ZH-TW.pdf">Open PDF</a></li>
-<li><div class="t"><b>One Night Shot</b><span>1 page · 2.5 MB</span></div><a class="btn" href="pdf/One_Night_Shot_One_Page_Brochure_ZH-TW.pdf">Open PDF</a></li>
-<li><div class="t"><b>The POSH Fusion Filler</b><span>2 pages · 5.2 MB</span></div><a class="btn" href="pdf/The_POSH_Fusion_Filler_ZH-TW.pdf">Open PDF</a></li>
-</ul>
-<footer>Traditional Chinese (zh-TW) versions. Design and artwork match the English originals.</footer>
-</main>
-</html>
+:root{--grey:#555;--green:#4fa84f;--line:#8a8a8a}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--grey);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;text-align:center}
+.wrap{max-width:960px;margin:0 auto;padding:36px 16px 40px}
+.top{text-align:left}.top img{height:44px;display:block}
+.wordmark{width:min(540px,90%);margin:34px auto 28px;display:block}
+h1{font-size:28px;letter-spacing:.14em;margin:0 0 14px;font-weight:700}
+.sub{font-size:20px;margin:0 0 30px;letter-spacing:.05em}
+.card{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:center;border:2px solid var(--line);margin-bottom:6px;padding:28px 34px 26px}
+.info h2{font-size:27px;margin:0;padding-bottom:26px;border-bottom:1px solid var(--line);font-weight:700}
+.info p{margin:0;font-size:17px;line-height:2.2;letter-spacing:.06em}
+.info .tag{padding-top:18px}
+.pic{display:flex;flex-direction:column;align-items:center;gap:14px}
+.pic img{max-width:100%;max-height:200px;width:auto;height:auto}
+a.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;font-size:20px;padding:6px 34px;border-radius:999px;letter-spacing:.08em}
+a.btn:hover{filter:brightness(.92)}a.btn:focus-visible{outline:3px solid #222;outline-offset:2px}
+.bot{margin-top:22px}.bot img{height:64px}
+@media(max-width:640px){.card{grid-template-columns:1fr;padding:22px 18px}h1{font-size:22px}.sub{font-size:17px}.info h2{font-size:23px}}
+</style></head><body><div class="wrap">
+<div class="top"><img src="img/logo_top.png" alt="Bloom Planet Group"></div>
+<img class="wordmark" src="img/wordmark.png" alt="BLOOM - Your beauty secret">
+<h1>探索我們的產品手冊</h1>
+<p class="sub">在同一處取得我們的數位產品手冊。</p>
+<section class="card"><div class="info"><h2>Hyalu Tox PDRN</h2><p class="tag">Dermotoxin 療程<br>一次解決所有肌膚困擾！</p></div><div class="pic"><img src="img/p_hyalu.png" alt="Hyalu Tox PDRN"><a class="btn" href="pdf/Hyalu_Tox_PDRN_One_page_Brochure_ZH-TW.pdf">繁體中文手冊</a></div></section>
+<section class="card"><div class="info"><h2>ACN EXO Shot</h2><p class="tag">針對易長痘與失衡肌膚的<br>外泌體精準護理。</p></div><div class="pic"><img src="img/p_acn.png" alt="ACN EXO Shot"><a class="btn" href="pdf/ACN_Exo_Shot_One_Page_Brochure_ZH-TW.pdf">繁體中文手冊</a></div></section>
+<section class="card"><div class="info"><h2>DHT EXO Shot</h2><p class="tag">進階外泌體頭皮護理，<br>讓秀髮更健康。</p></div><div class="pic"><img src="img/p_dht.png" alt="DHT EXO Shot"><a class="btn" href="pdf/DHT_Exo_Shot_One_Page_Brochure_ZH-TW.pdf">繁體中文手冊</a></div></section>
+<section class="card"><div class="info"><h2>The POSH Fusion Filler</h2><p class="tag">每一滴，盡顯奢華<br>…簡單，就是美</p></div><div class="pic"><img src="img/p_posh.png" alt="The POSH Fusion Filler"><a class="btn" href="pdf/The_POSH_Fusion_Filler_ZH-TW.pdf">繁體中文手冊</a></div></section>
+<section class="card"><div class="info"><h2>One Night Shot</h2><p class="tag">一夜！<br>一針！<br>一次蛻變。</p></div><div class="pic"><img src="img/p_ons.png" alt="One Night Shot"><a class="btn" href="pdf/One_Night_Shot_One_Page_Brochure_ZH-TW.pdf">繁體中文手冊</a></div></section>
+<div class="bot"><img src="img/logo_bot.png" alt="Bloom Planet Group"></div>
+</div></body></html>
